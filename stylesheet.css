@@ -1,0 +1,198 @@
+
+@-webkit-keyframes color-change {
+    0%{background-position:0% 100%}
+    100%{background-position:100% 0%}
+    /*100%{background-position:0% 94%}*/
+}
+@-moz-keyframes color-change {
+    0%{background-position:0% 100%}
+    100%{background-position:100% 0%}
+    /*100%{background-position:0% 94%}*/
+}
+@keyframes color-change {
+    0%{background-position:0% 100%}
+    100%{background-position:100% 0%}
+    /*100%{background-position:0% 94%}*/
+}
+
+html, body {
+    /* background: #4EABFF;
+    background-image: linear-gradient(-225deg, rgba(256,256,255,0.50) 0%, rgba(256,256,255,0.50) 0%, rgba(256,256,255,0.50) 0%, rgba(255,255,255,0.50) 0%, rgba(256,256,255,0.50) 0%, rgba(50,52,116,0.73) 51%, #003561 97%);*/
+    color: white;
+    font-family: helvetica;
+    background-color: inherit;
+    background: linear-gradient(55deg, black, #42f4cb, #0073c0, #4fb5fa, #002ed4, #d400c6, #c764f8, #9f00ff, #ff7dd4, #e50053, #ffa600, #fff500, #a1f442, #42f4cb, black);
+    background-size: 2500% 2500%;
+
+    -webkit-animation: color-change 90s linear infinite;
+    -moz-animation: color-change 90s linear infinite;
+    animation: color-change 90s linear infinite;
+}
+
+#app{
+
+    border-color: black;
+    border: 1px;
+    width: 320px;
+}
+.fadedData {
+    font-family: Helvetica;
+    color: #C5D9EB;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.inline {
+    display: inline-block;
+    line-height: 100%;
+}
+
+.buttonz {
+    display: inline-block;
+    line-height: 100%;
+}
+.location-container{
+    width: 320px;
+}
+.temperature-container{
+    position: relative;
+    top: 4px;
+    width: 320px;
+}
+.weather-description-container{
+    clear: both;
+    width: 320px;
+    clear: both;
+}
+.weather-stats-container{
+    position: relative;
+    top: 20px;
+    width: 320px;
+}
+
+.min-max{
+    color: #C5D9EB;
+    font-size: 24px;
+    float: right;
+    position: relative;
+    top: -40px;
+
+}
+
+.container {
+    width: 320px;
+    height: 120px;
+    position: relative;
+    top: -20px;
+    /*border: 1px solid #fff;*/
+    overflow-x: scroll;
+}
+
+.scroll-container {
+    width: 560px;
+    height: 100px;
+}
+
+.box {
+    width: 90px;
+    height: 90px;
+    margin: 5px;
+    float: left;
+    background-color: red;
+}
+
+#app{
+    width: 340px;
+    margin: auto;
+}
+
+#dt {
+    font-size: 21px;
+}
+
+#location-name {
+    font-size: 36px;
+}
+#gps{
+    color: #C5D9EB;
+    text-align: right;
+}
+#coords {
+    font-family: Gulim;
+    font-size: 14px;
+    color: #C5D9EB;
+}
+
+#temp1 {
+    font-family: Gulim;
+    font-size: 120px;
+    color: #FFFFFF;
+    float: left;
+}
+
+#temp2 {
+    font-family: Gulim;
+    font-size: 40px;
+    float: left;
+    position: relative;
+    top: -54px;
+    left: 20px;
+    color: #C5D9EB;
+}
+#fLabel {
+    display: block;
+    font-size: 60px;
+    position: relative;
+    left: -40px;
+    top: 60px;
+}
+
+#cLabel {
+    display: block;
+    position: relative;
+    left: 8px;
+    top: -32px;
+    color: #C5D9EB;
+
+}
+#lowtemp{
+
+    position: relative;
+    left: 99px;
+}
+#temp_max{
+    font-family: Gulim;
+    color: white;
+
+}
+
+#temp_min{
+    font-family: Gulim;
+    color: white;
+}
+
+#desc{
+    clear: both;
+    font-size: 30px;
+    position: relative;
+    top: -20px;
+}
+
+#icon {
+    float: right;
+    position: relative;
+    top: -20px;
+    height: 150px;
+    width: 150px;
+}
+#icon img{
+    display:block;
+    height: 100%;
+    width: auto;
+    max-width: 100%;
+}
+#tenday{
+    float: left;
+    font-size: 20px;
+    padding: 10px;
+}

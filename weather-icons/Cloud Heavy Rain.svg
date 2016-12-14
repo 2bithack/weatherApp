@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="140px" height="150px" viewBox="0 0 140 150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Cloud Heavy Rain</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Cloud-Heavy-Rain" transform="translate(5.000000, 5.000000)" stroke-width="9.44055944" stroke="#FFFFFF">
+            <g id="Page-1">
+                <g>
+                    <g id="Cloud-Heavy-Rain">
+                        <g id="rain-cloud">
+                            <g id="rain" transform="translate(28.791946, 76.867470)">
+                                <path d="M0.436241611,0 L0.436241611,67.3044713" id="Path-2"></path>
+                                <path d="M68.4899329,0 L68.4899329,67.3044713" id="Path-2-Copy-3"></path>
+                                <path d="M23.1208054,0 L23.1208054,67.3044713" id="Path-2-Copy"></path>
+                                <path d="M45.8053691,0 L45.8053691,67.3044713" id="Path-2-Copy-2"></path>
+                            </g>
+                            <path d="M99.4452232,30.4880668 C94.0687713,13.0001287 77.7732422,0.286719397 58.5053918,0.286719397 C39.000523,0.286719397 22.5415516,13.3148339 17.3721206,31.1355893 C7.45526077,33.1804787 0,41.9536251 0,52.4663156 C0,64.4431738 9.67655777,74.1621904 21.6454265,74.2464361 L113.873765,74.246988 C122.536402,74.246988 129.558857,67.2314922 129.558857,58.5774395 C129.558857,49.9233869 122.536402,42.9078911 113.873765,42.9078911 C113.788802,35.9703151 108.133218,30.3722524 101.168841,30.3722524 C100.58424,30.3722524 100.00886,30.4116975 99.445224,30.4880688 L99.4452232,30.4880668 Z" id="cloud" opacity="0.99000001"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

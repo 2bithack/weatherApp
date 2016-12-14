@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="15px" viewBox="0 0 24 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Cloud Heavy Rain</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Cloud-Heavy-Rain" transform="translate(1.000000, 1.000000)" stroke-width="1.57342657" stroke="#FFFFFF">
+            <g id="Page-1">
+                <g>
+                    <g id="Cloud-Heavy-Rain">
+                        <g id="rain-cloud">
+                            <g id="rain" transform="translate(4.798658, 12.811245)">
+                                <path id="Path-2"></path>
+                                <path id="Path-2-Copy-3"></path>
+                                <path id="Path-2-Copy"></path>
+                                <path id="Path-2-Copy-2"></path>
+                            </g>
+                            <path d="M16.5742039,5.08134446 C15.6781285,2.16668812 12.962207,0.0477865661 9.75089863,0.0477865661 C6.50008716,0.0477865661 3.75692527,2.21913898 2.89535343,5.18926488 C1.24254346,5.53007978 0,6.99227086 0,8.74438594 C0,10.740529 1.61275963,12.3603651 3.60757108,12.374406 L18.9789609,12.374498 C20.4227337,12.374498 21.5931428,11.2052487 21.5931428,9.76290659 C21.5931428,8.32056448 20.4227337,7.15131518 18.9789609,7.15131518 C18.9648003,5.99505252 18.022203,5.06204207 16.8614735,5.06204207 C16.7640399,5.06204207 16.6681434,5.06861624 16.574204,5.0813448 L16.5742039,5.08134446 Z" id="cloud" opacity="0.99000001"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
