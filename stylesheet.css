@@ -29,6 +29,8 @@ html, body {
     animation: color-change 90s linear infinite;
 }
 
+
+
 #app{
 
     border-color: black;
@@ -50,6 +52,7 @@ html, body {
 .buttonz {
     display: inline-block;
     line-height: 100%;
+    margin-top: 10px;
 }
 .location-container{
     width: 320px;
@@ -76,7 +79,6 @@ html, body {
     float: right;
     position: relative;
     top: -40px;
-
 }
 
 .container {
@@ -136,7 +138,7 @@ html, body {
     float: left;
     position: relative;
     top: -54px;
-    left: 20px;
+    left: 50px;
     color: #C5D9EB;
 }
 #fLabel {
@@ -150,7 +152,7 @@ html, body {
 #cLabel {
     display: block;
     position: relative;
-    left: 8px;
+    left: 38px;
     top: -32px;
     color: #C5D9EB;
 
@@ -195,4 +197,8 @@ html, body {
     float: left;
     font-size: 20px;
     padding: 10px;
+}
+
+body.is-empty .if-empty {
+    opacity: 0;
 }

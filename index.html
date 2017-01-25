@@ -49,14 +49,14 @@
             <!-- <div>Weather:<div id="weather-main"></div></div> -->
             <div id="temp1"></div><span id="fLabel">F</span>
             <div id="temp2"></div><span id="cLabel">C</span>
-            <div class="min-max">High: <div class="inline" id="temp_max"></div></div>
-            <span id="lowtemp"><div class="min-max">Low: <div class="inline" id="temp_min"></div></div></span>
+            <div class="min-max if-empty">High: <div class="inline" id="temp_max"></div></div>
+            <span id="lowtemp"><div class="min-max if-empty">Low: <div class="inline" id="temp_min"></div></div></span>
         </div>
         <div class="weather-description-container">
             <div id="desc"></div>
             <div id="icon"></div>
         </div>
-        <div class="weather-stats-container">
+        <div class="weather-stats-container if-empty">
             <div class="fadedData">Sunrise: <div class="inline" id="sunrise"></div></div>
             <div class="fadedData">Sunset: <div class="inline" id="sunset"></div></div>
             <div class="fadedData">Pressure: <div class="inline" id="pressure"></div></div>
@@ -123,8 +123,11 @@
         // Load weather for the city saved in local storage, if there is a one...
         var savedCity = getCity();
         console.log(savedCity);
-        if (savedCity != null) {
+        if (loadData != null) {
             loadData(savedCity);
+        } else {
+            console.log("No saved city.");
+            $("body").addClass("is-empty");
         }
 
         // Call this method with the city name to load weather for that city
