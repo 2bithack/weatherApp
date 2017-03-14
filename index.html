@@ -235,7 +235,7 @@
             return (t - 273.15).toFixed(2);
         }
 
-        //five day forecast
+        //ten day forecast
         function loadTenDayForecast(lat, lon) {
             var apikey = "b9c6663b8a0d19064a258dba8e34a39d";
             var path = "http://api.openweathermap.org/data/2.5/forecast/daily?lat=" + lat + "&lon=" + lon + "&cnt=10" + "&appid=" + apikey;
